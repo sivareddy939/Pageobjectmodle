@@ -30,6 +30,9 @@ public class TestBase {
 			File src = new File("C:\\sivareddyproject\\framework\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
 			
 			FileInputStream fis = new FileInputStream(src);
+			
+			
+			
 			prop = new Properties();
 			prop.load(fis);
 			
