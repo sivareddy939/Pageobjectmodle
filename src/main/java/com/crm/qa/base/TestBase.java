@@ -31,8 +31,7 @@ public class TestBase {
 			
 			FileInputStream fis = new FileInputStream(src);
 			prop = new Properties();
-			prop.load(fis);
-			
+			prop.load(fis);	
 		}catch(FileNotFoundException e){
 			e.printStackTrace();
 			}catch(IOException e){
